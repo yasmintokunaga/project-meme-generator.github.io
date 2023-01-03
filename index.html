@@ -27,23 +27,26 @@
                 <input type="text" id="text-input" maxlength="60">
             </section>
             <section>
-                <label for="meme-insert">Imagem: </label>
-                <input type="file" id="meme-insert" accept="image/*">
+                <form id="upload-image">
+                    <label for="meme-insert">Imagem: </label>
+                    <input type="file" id="meme-insert" accept="image/*">
+                </form>
             </section>
         </div>
         <div id="middle-div-meme">
             <section>
-                <div id="meme-image-container">              
-                <img id="meme-image">
-                <div id="meme-text"></div>                             
+                <div id="meme-image-container">
+                    <img id="meme-image">
+                    <div id="meme-text"></div>
                 </div>
             </section>
             <section>
-                <div id="suggestion-meme"><h2>Sugestões de meme:</h2>
-                <div id="meme-1" class="meme-sug"></div>
-                <div id="meme-2" class="meme-sug"></div>
-                <div id="meme-3" class="meme-sug"></div>
-                <div id="meme-4" class="meme-sug"></div>
+                <div id="suggestion-meme">
+                    <h2>Sugestões de meme:</h2>
+                    <div id="meme-1" class="meme-sug"></div>
+                    <div id="meme-2" class="meme-sug"></div>
+                    <div id="meme-3" class="meme-sug"></div>
+                    <div id="meme-4" class="meme-sug"></div>
                 </div>
             </section>
         </div>
@@ -56,4 +59,5 @@
     </main>
     <script src="./script.js"></script>
 </body>
+
 </html>

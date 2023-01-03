@@ -39,8 +39,8 @@ const memeSug = {
   'meme-4': 'imgs/meme4.png',
 };
 
-const configNewImg = (key) => {
-  memeImage.setAttribute('src', memeSug[key]);
+const configNewImg = (newImage) => {
+  memeImage.setAttribute('src', newImage);
 };
 
 const configEventImgMeme = () => {
@@ -48,8 +48,19 @@ const configEventImgMeme = () => {
     const btnMeme = memesSuggestions[index];
     btnMeme.addEventListener('click', (event) => {
       const idSelected = event.target.id;
-      configNewImg(idSelected);
+      configNewImg(memeSug[idSelected]);
     });
   }
 };
 configEventImgMeme();
+
+function readImage() {
+  if (this.files && this.files[0]) {
+      var file = new FileReader();
+      file.onload = function(e) {
+        memeImage.src = e.target.result;
+      };       
+      file.readAsDataURL(this.files[0]);
+  }
+}
+document.getElementById("meme-insert").addEventListener("change", readImage, false);
