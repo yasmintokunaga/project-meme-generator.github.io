@@ -1,0 +1,138 @@
+#meme-header {
+  height: 100px;
+  background-image: url('imgs/meme-project.jpg');
+  background-size: contain;
+  width: 79%;
+  float: right;
+}
+
+header h1 {
+  color: red;
+  font-family: Rubik Vinyl, cursive;
+  font-size: 50px;
+  min-width: 20%;
+  border: 1px solid red;
+}
+
+body {
+  font-size: 25px;
+  font-family: IBM Plex Sans, sans-serif;
+  margin: 40px;
+}
+
+#top-div-input {
+  padding: 15px;
+  border-top: 2px solid rgb(237, 110, 110);
+  border-left: 2px solid rgb(237, 110, 110);
+  border-bottom: 3px solid rgb(228, 21, 21);
+  border-right: 3px solid rgb(228, 21, 21);
+  width: 50%;
+  line-height: 70px;
+}
+
+#top-div-input button {
+  font-size: 15px;
+}
+
+#text-input {
+  height: 20px;
+  width: 400px;
+}
+
+#middle-div-meme {
+  margin-top: 25px;
+}
+
+#middle-div-meme section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#meme-image-container {
+  height: 450px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 0 100px 0 20px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+}
+
+#meme-image {
+  height: 450px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+#meme-text {
+  margin: 0;
+  padding: 5px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: 5px 5px 5px rgb(176, 92, 92);
+  width: 95%;
+  position: absolute;
+  bottom: 50px;
+  word-break: break-all;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.meme-sug {
+  border: 1px solid rgb(234, 199, 136);
+  margin: 12px auto;
+  width: 50%;
+  height: 80px;
+}
+
+#meme-1 {
+  background-image: url('imgs/meme1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#meme-2 {
+  background-image: url('imgs/meme2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#meme-3 {
+  background-image: url('imgs/meme3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#meme-4 {
+  background-image: url('imgs/meme4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bottom-div-border button {
+  padding: 10px 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}

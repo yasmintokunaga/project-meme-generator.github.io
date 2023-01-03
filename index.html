@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="meme-header"></div>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <main>
+        <div id="top-div-input">
+            <section>
+                <label for="text-input">Texto: </label>
+                <input type="text" id="text-input" maxlength="60">
+            </section>
+            <section>
+                <form id="upload-image">
+                    <label for="meme-insert">Imagem: </label>
+                    <input type="file" id="meme-insert" accept="image/*">
+                </form>
+            </section>
+        </div>
+        <div id="middle-div-meme">
+            <section>
+                <div id="meme-image-container">
+                    <img id="meme-image">
+                    <div id="meme-text"></div>
+                </div>
+            </section>
+            <section>
+                <div id="suggestion-meme">
+                    <h2>Sugestões de meme:</h2>
+                    <div id="meme-1" class="meme-sug"></div>
+                    <div id="meme-2" class="meme-sug"></div>
+                    <div id="meme-3" class="meme-sug"></div>
+                    <div id="meme-4" class="meme-sug"></div>
+                </div>
+            </section>
+        </div>
+        <div id="bottom-div-border">
+            <h2>Altere o estilo: </h2>
+            <button id="fire" class="change-border">Fire</button>
+            <button id="water" class="change-border">Water</button>
+            <button id="earth" class="change-border">Earth</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
