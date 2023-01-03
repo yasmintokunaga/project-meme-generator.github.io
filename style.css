@@ -22,10 +22,10 @@ body {
 
 #top-div-input {
   padding: 15px;
-  border-top: 2px dashed red;
-  border-left: 2px dashed red;
-  border-bottom: 2px solid red;
-  border-right: 2px solid red;
+  border-top: 2px solid rgb(237, 110, 110);
+  border-left: 2px solid rgb(237, 110, 110);
+  border-bottom: 3px solid rgb(228, 21, 21);
+  border-right: 3px solid rgb(228, 21, 21);
   width: 50%;
   line-height: 70px;
 }
@@ -40,7 +40,6 @@ body {
 }
 
 #middle-div-meme {
-  border: 1px solid pink;
   margin-top: 25px;
 }
 
@@ -71,16 +70,13 @@ body {
   margin: 0;
   padding: 5px;
   font-size: 30px;
-  color: white;
-  text-shadow: 5px 5px 5px black;
+  color: black;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: 5px 5px 5px rgb(176, 92, 92);
   width: 95%;
   position: absolute;
   bottom: 50px;
   word-break: break-all;
-}
-
-#suggestion-meme {
-  border: 1px solid black;
 }
 
 h2 {
@@ -88,7 +84,7 @@ h2 {
 }
 
 .meme-sug {
-  border: 1px solid orange;
+  border: 1px solid rgb(234, 199, 136);
   margin: 12px auto;
   width: 50%;
   height: 80px;
